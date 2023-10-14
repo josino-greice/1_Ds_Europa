@@ -1,0 +1,65 @@
+/* Estilo para o cabeçalho*/
+.cabecalho {
+    background-color: black;
+    font-size: 100%;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20;
+    padding: 20;
+}
+.titulo_smart {
+    color: rgb(244, 255, 93);
+}
+.login_div button {
+    background-color: blueviolet;
+    border-radius: 45%;
+    border: none;
+    color: rgb(184, 92, 92);
+    padding: 15px 32px;
+    font-size: 40px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #5aa15e, #adca5a);
+    color: red;
+}
+/* Estilo para o conteúdo do corpo */
+.container {
+    background-color: rgb(160, 7, 160);
+    text-align: center;
+}
+.imagem_centro {
+    width: 300px; /* Ajuste conforme necessário */
+    margin: 20px;
+}
+.texto_informativo {
+    font-size: 50px; /* Ajuste conforme necessário */
+    color: white;
+}
+.rodape {
+    text-align: center;
+    color: white;
+}
+.endereco {
+    font-size: 18px;
+}
+body {
+    background-image: url('imagens/sadsapo.jpg'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    color: #333;
+}
+.caixa_titulo {
+    background-color: #FFD700; /* Cor de fundo amarela, você pode alterar para a cor desejada */
+    padding: 20px; /* Aumentei o espaçamento interno para 20 pixels */
+    border-radius: 10px; /* Borda arredondada */
+    display: inline-block; /* Faz com que a caixa se ajuste ao conteúdo */
+    font-size: 24px; /* Aumentei o tamanho da fonte para 24 pixels */
+}
