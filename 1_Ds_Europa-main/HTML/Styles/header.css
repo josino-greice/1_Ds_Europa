@@ -1,0 +1,68 @@
+.cabecalho{
+    background-color: rgb*(255, 255, 255); /*colocar cor de fundo*/
+    display: flex;                         
+    font-size: 2em;                        /*colocar tamanho da fonte*/
+    color: rgb(0, 0, 0);                 /*colocar cor da fonte*/
+    width: 1005;                           /*colocar largura da janela*/
+    height: 80%;                           /*colocar altura do espaço do cabeçalho*/ 
+    text-align: center;                    /*alinha o texto do titulo*/
+    justify-content: space-between;        /*colocar espaço entre os objetos do cabeçalho*/ 
+    align-items: center;                   
+    margin: 1cqi;                          /*alinha os objetos ao centro vertical do espaço*/   
+}
+.logotipo{
+    width: 60%;
+    padding: 5px;
+    margin: 05px;
+}
+.botao_login{
+    background-color: #effcf1;
+    border-radius: 10%;
+    border: none;
+    color: #082735;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 29px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #a1a2f5,#a1a2f5 );
+}
+
+/*formata o botão verde para mudar a cor do texto e colocar sombra qunado o mouse passar em cima*/
+.botao_login:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgb(209, 192, 192, 0.2);
+}
+@media screen and (min-width:1024px) {
+
+    .titulo_smart{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1350px) {
+
+    .cabecalho{
+        font-size: 2em;
+        height: 160px;
+        align-items: center;
+        margin: 1cqi;
+    }
+    .titulo_smart{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+    }
+    .botao_login{
+        font-size: 60px;
+        margin: 10px;
+    }  
+    .logotipo{
+        width: 120px;
+        padding: 5px;
+        margin: 05px;
+    }
+}
