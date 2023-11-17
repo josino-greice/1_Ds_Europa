@@ -1,0 +1,144 @@
+/* Estilo para o cabeçalho */
+.cabecalho {
+    background-color: transparent; /* Substitua pelo código de cor desejado */
+    font-size: 50%;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20;
+    padding: 20;
+}
+
+@media screen and (max-width: 768px) {
+    .fundo_escuro {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+        pointer-events: none; /* Permite que cliques passem pelo overlay */
+        z-index: 1; /* Certifica-se de que o fundo escuro fique por trás do conteúdo */
+    }
+}
+
+.titulo_smart {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px; /* Adiciona 20 pixels de espaço abaixo do título */
+    padding-bottom: 20px; /* Adiciona 20 pixels de espaço interno abaixo do título */
+    
+}
+.botao_login {
+    background-color: rgb(57, 1, 82); ; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 20px 30px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin-bottom: 15px;
+}
+.botao_cadastro {
+    background-color: rgb(57, 1, 82); ; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 20px 30px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin-bottom: 15px;
+}    
+
+.botao_login:hover {
+    background-color: rgb(26, 0, 37);  /* Cor de fundo mais escura ao passar o mouse */
+}
+.botao_cadastro:hover{
+    background-color: rgb(26, 0, 37);
+}
+
+.login_container {
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+    font-size: 24px;
+    padding: 15px 32px;
+}
+
+.titulo_container {
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+    margin-bottom: 0px; /* Adiciona espaço entre o título e o próximo elemento */
+    font-size: 55px;
+    color: black;
+}
+
+.titulo_smart {
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px; /* Adiciona 20 pixels de espaço abaixo do título */
+    padding-bottom: 0px; /* Adiciona 20 pixels de espaço interno abaixo do título */
+    width: 100%; /* Garante que a largura é 100% para ocupar todo o espaço disponível */
+    display: inline-block; /* Permite definir margens e centralizar verticalmente */
+    margin-top: 50px; /* Ajusta a margem superior para centralizar verticalmente */
+}
+
+.imagem_centro {
+    width: 400px; /* Ajuste conforme necessário */
+    margin: 20px;
+}
+
+.texto_informativo {
+    font-size: 45px; /* Ajuste conforme necessário */
+    color: rgb(0, 0, 0);
+}
+
+.rodape {
+    text-align: center;
+    color: rgb(26, 0, 37); 
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 180px;
+}
+
+.endereco {
+    font-size: 37px;
+    margin-bottom: 0px;
+}
+
+body {
+    background-image: url('imagens/background_0.1.jpg'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 180px;
+}
+.caixa_titulo {
+    background-color: rgb(107, 5, 148); /* Cor de fundo amarela, você pode alterar para a cor desejada */
+    padding: 20px; /* Aumentei o espaçamento interno para 20 pixels */
+    border-radius: 10px; /* Borda arredondada */
+    display: inline-block; /* Faz com que a caixa se ajuste ao conteúdo */
+    font-size: 24px; /* Aumentei o tamanho da fonte para 24 pixels */
+}
+
+.topo {
+    display: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Cor de fundo, se desejado */
+    padding: 10px 20px; /* Espaçamento interno, ajuste conforme necessário */
+}
+
+.logo_lateral {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.logo_lateral img {
+    width: 100px; /* Tamanho da imagem, ajuste conforme necessário */
+    margin-bottom: 10px; /* Espaçamento entre os logotipos */
+}
